@@ -1,6 +1,6 @@
 ## Склонировать проект
 ```shell
-git clone https://github.com/IS-CG/cg22-project-CHIMP.git
+git clone https://github.com/Ssspook/CHIMP.git
 ```
 
 ## Восстановление зависимостей
