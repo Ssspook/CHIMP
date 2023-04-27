@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Converters</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SkiaSharp" Version="2.88.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ChimpSolution.Common\ChimpSolution.Common.csproj" />
+    </ItemGroup>
+
+</Project>

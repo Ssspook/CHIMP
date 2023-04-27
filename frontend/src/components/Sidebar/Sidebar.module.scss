@@ -1,0 +1,31 @@
+@import "../../styles/common.scss";
+
+.bar {
+  width: 100%;
+  max-width: 300px;
+  background: $ui-secondary;
+  min-height: 100vh;
+  padding: 2rem;
+
+  &__heading {
+    text-transform: uppercase;
+    color: #c5d0dc;
+    letter-spacing: .1rem;
+    margin: 1rem 0;
+  }
+
+  &__item {
+    color: $black;
+    padding: .5rem;
+    border-radius: .5rem;
+
+    &_active {
+      background: $primary-blue;
+      color: white;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

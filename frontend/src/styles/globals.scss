@@ -1,0 +1,118 @@
+@import "common";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+::placeholder {
+  color: #606f84;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+input[type='number'] {
+  appearance: textfield;
+}
+
+html,
+body {
+  height: auto;
+  min-height: 100vh;
+}
+
+:root {
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+span,
+p,
+div {
+  font-weight: 500;
+}
+
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+mark {
+  background: linear-gradient(90deg, #23f9c3 0%, #23bcf9 100%);
+  padding: .5rem;
+  border-radius: 5px;
+}

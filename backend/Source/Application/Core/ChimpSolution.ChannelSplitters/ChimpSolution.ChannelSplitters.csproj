@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>ChannelSplitters</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SkiaSharp" Version="2.88.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ChimpSolution.Common\ChimpSolution.Common.csproj" />
+      <ProjectReference Include="..\ChimpSolution.Converters\ChimpSolution.Converters.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="ColorChannels" />
+    </ItemGroup>
+
+</Project>

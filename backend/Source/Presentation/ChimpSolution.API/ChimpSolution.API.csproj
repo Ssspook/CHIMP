@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="SkiaSharp" Version="2.88.2" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\ChimpSolution.Dithering\ChimpSolution.Dithering.csproj" />
+      <ProjectReference Include="..\..\..\ChimpSolution.GammaCorrection\ChimpSolution.GammaCorrection.csproj" />
+      <ProjectReference Include="..\..\..\ChimpSolution.LineDrawing\ChimpSolution.LineDrawing.csproj" />
+      <ProjectReference Include="..\..\..\Filtering\Filtering.csproj" />
+      <ProjectReference Include="..\..\Application\Core\ChimpSolution.ChannelSplitters\ChimpSolution.ChannelSplitters.csproj" />
+      <ProjectReference Include="..\..\Application\Core\ChimpSolution.Common\ChimpSolution.Common.csproj" />
+      <ProjectReference Include="..\..\Application\Core\ChimpSolution.Dithering\ChimpSolution.Dithering.csproj" />
+      <ProjectReference Include="..\..\Application\Core\ChimpSolution.Extensions\ChimpSolution.Extensions.csproj" />
+      <ProjectReference Include="..\..\Application\Core\ChimpSolution.GammaCorrection\ChimpSolution.GammaCorrection.csproj" />
+      <ProjectReference Include="..\..\Application\Core\ChimpSolution.LineDrawing\ChimpSolution.LineDrawing.csproj" />
+      <ProjectReference Include="..\..\Application\Core\ChimpSolution.PNMReader\ChimpSolution.PNMReader.csproj" />
+      <ProjectReference Include="..\..\Application\Core\Histogram\Histogram.csproj" />
+      <ProjectReference Include="..\..\Application\Core\ChimpSolution.PNGReader\ChimpSolution.PNGReader.csproj" />
+      <ProjectReference Include="..\..\Application\Infrastructure\ChimpSolution.Abstractions\ChimpSolution.Abstractions.csproj" />
+      <ProjectReference Include="..\..\Application\Infrastructure\ChimpSolution.Sdk\ChimpSolution.Sdk.csproj" />
+    </ItemGroup>
+
+</Project>
