@@ -1,29 +1,29 @@
-## Склонировать проект
+## Clone project
 ```shell
 git clone https://github.com/Ssspook/CHIMP.git
 ```
 
-## Восстановление зависимостей
+## Dependencies
 
 ```shell
 make install
 ```
 
-## Запуск проекта
+## Run
 
 ```shell
 make start-frontend
 make start-backend
 ```
 
-Полный список команд:
+Full commands list:
 
 ```shell
 make help
 ```
 
-| Адрес                                     | Описание    |
-|-------------------------------------------|-------------|
+| Address                                   | Description    |
+|-------------------------------------------|----------------|
 | http://localhost:5173/                    | Frontend    |
-| https://localhost:7186/api/               | API проекта |
+| https://localhost:7186/api/               | API         |
 | https://localhost:7186/swagger/index.html | Swagger     |
